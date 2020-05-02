@@ -21,23 +21,38 @@
 	font-family: 'Jost-Bold';
 	font-size: 4em;
 }
-.math div:nth-of-type(1){
+.math-section{
+	display: flex;
+	flex-direction: column;
+}
+.math-section div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.math-section div:nth-of-type(1){
+	flex: 3;
+}
+.math-section div:nth-of-type(2){
+	flex: 1;
+}
+.math-section:nth-of-type(1){
 	grid-column-start: 1;
 	grid-column-end: 2;
 }
-.math div:nth-of-type(2){
+.math-section:nth-of-type(2){
 	grid-column-start: 4;
 	grid-column-end: 5;
 }
-.math div:nth-of-type(3){
+.math-section:nth-of-type(3){
 	grid-column-start: 2;
-	grid-column-end: 3;
+	grid-column-end: 4;
 }
-.math div:nth-of-type(4){
+.math-section:nth-of-type(4){
 	grid-column-start: 1;
 	grid-column-end: 2;
 }
-.math div:nth-of-type(5){
+.math-section:nth-of-type(5){
 	grid-column-start: 4;
 	grid-column-end: 5;
 }
