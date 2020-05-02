@@ -19,7 +19,8 @@
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	font-family: 'Jost-Bold';
-	font-size: 4em;
+	font-size: 8vh;
+	background: linear-gradient(to top, #FFFFFF, #FFF8B5);
 }
 .math-section{
 	display: flex;
