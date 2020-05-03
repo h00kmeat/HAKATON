@@ -1,8 +1,8 @@
 
 @font-face {
 	font-family: 'Jost-Bold';
-	src: url('fonts/Jost-Bold.eot');
-	src: local('☺'), url('fonts/Jost-Bold.woff') format('woff'), url('fonts/Jost-Bold/Jost-Bold.ttf') format('truetype'), url('fonts/Jost-Bold.svg') format('svg');
+	src: url('Jost-Bold.eot');
+	src: local('☺'), url('Jost-Bold/Jost-Bold.woff') format('woff'), url('Jost-Bold/Jost-Bold.ttf') format('truetype'), url('Jost-Bold/Jost-Bold.svg') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -10,7 +10,7 @@
 font-family: 'Myriad Pro Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Regular'), url('fonts/Myriad Pro Font Family/MYRIADPRO-REGULAR.woff') format('woff');
+src: local('Myriad Pro Regular'), url('Myriad Pro Font Family/MYRIADPRO-REGULAR.woff') format('woff');
 }
 
 
@@ -18,7 +18,7 @@ src: local('Myriad Pro Regular'), url('fonts/Myriad Pro Font Family/MYRIADPRO-RE
 font-family: 'Myriad Pro Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Condensed'), url('fonts/Myriad Pro Font Family/MYRIADPRO-COND.woff') format('woff');
+src: local('Myriad Pro Condensed'), url('Myriad Pro Font Family/MYRIADPRO-COND.woff') format('woff');
 }
 
 
@@ -26,7 +26,7 @@ src: local('Myriad Pro Condensed'), url('fonts/Myriad Pro Font Family/MYRIADPRO-
 font-family: 'Myriad Pro Condensed Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Condensed Italic'), url('fonts/Myriad Pro Font Family/MYRIADPRO-CONDIT.woff') format('woff');
+src: local('Myriad Pro Condensed Italic'), url('Myriad Pro Font Family/MYRIADPRO-CONDIT.woff') format('woff');
 }
 
 
@@ -34,7 +34,7 @@ src: local('Myriad Pro Condensed Italic'), url('fonts/Myriad Pro Font Family/MYR
 font-family: 'Myriad Pro Light';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Light'), url('fonts/Myriad Pro Font Family/MyriadPro-Light.woff') format('woff');
+src: local('Myriad Pro Light'), url('Myriad Pro Font Family/MyriadPro-Light.woff') format('woff');
 }
 
 
@@ -42,7 +42,7 @@ src: local('Myriad Pro Light'), url('fonts/Myriad Pro Font Family/MyriadPro-Ligh
 font-family: 'Myriad Pro Semibold';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Semibold'), url('fonts/Myriad Pro Font Family/MYRIADPRO-SEMIBOLD.woff') format('woff');
+src: local('Myriad Pro Semibold'), url('Myriad Pro Font Family/MYRIADPRO-SEMIBOLD.woff') format('woff');
 }
 
 
@@ -50,7 +50,7 @@ src: local('Myriad Pro Semibold'), url('fonts/Myriad Pro Font Family/MYRIADPRO-S
 font-family: 'Myriad Pro Semibold Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Semibold Italic'), url('fonts/Myriad Pro Font Family/MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+src: local('Myriad Pro Semibold Italic'), url('Myriad Pro Font Family/MYRIADPRO-SEMIBOLDIT.woff') format('woff');
 }
 
 
@@ -58,7 +58,7 @@ src: local('Myriad Pro Semibold Italic'), url('fonts/Myriad Pro Font Family/MYRI
 font-family: 'Myriad Pro Bold Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Bold Condensed'), url('fonts/Myriad Pro Font Family/MYRIADPRO-BOLDCOND.woff') format('woff');
+src: local('Myriad Pro Bold Condensed'), url('Myriad Pro Font Family/MYRIADPRO-BOLDCOND.woff') format('woff');
 }
 
 
@@ -66,7 +66,7 @@ src: local('Myriad Pro Bold Condensed'), url('fonts/Myriad Pro Font Family/MYRIA
 font-family: 'Myriad Pro Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Bold'), url('fonts/Myriad Pro Font Family/MYRIADPRO-BOLD.woff') format('woff');
+src: local('Myriad Pro Bold'), url('Myriad Pro Font Family/MYRIADPRO-BOLD.woff') format('woff');
 }
 
 
@@ -74,7 +74,7 @@ src: local('Myriad Pro Bold'), url('fonts/Myriad Pro Font Family/MYRIADPRO-BOLD.
 font-family: 'Myriad Pro Bold Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Bold Italic'), url('fonts/Myriad Pro Font Family/MYRIADPRO-BOLDIT.woff') format('woff');
+src: local('Myriad Pro Bold Italic'), url('Myriad Pro Font Family/MYRIADPRO-BOLDIT.woff') format('woff');
 }
 
 
@@ -82,5 +82,5 @@ src: local('Myriad Pro Bold Italic'), url('fonts/Myriad Pro Font Family/MYRIADPR
 font-family: 'Myriad Pro Bold Condensed Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Myriad Pro Bold Condensed Italic'), url('fonts/Myriad Pro Font Family/MYRIADPRO-BOLDCONDIT.woff') format('woff');
+src: local('Myriad Pro Bold Condensed Italic'), url('Myriad Pro Font Family/MYRIADPRO-BOLDCONDIT.woff') format('woff');
 }
