@@ -4,7 +4,7 @@
  }
 body{
 	background: fixed url(img/pattern.jpg) no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 }
 .math{
 	width: 100%;
@@ -51,13 +51,11 @@ body{
 }
 
 .math-section:nth-of-type(3){
+	margin: 5vh;
 	background-color: #FFF8B5;
-	border-radius: 62px;
+	border-radius: 5vh;
 	font-family: Jost;
-	font-style: normal;
-	font-weight: bold;
 	font-size: 10vh;
-	line-height: 145px;
 	color: #0A617C;
 	text-shadow: 0px 0.8vh 0.8vh rgba(0, 0, 0, 0.25);
 	grid-column-start: 2;
