@@ -9,10 +9,16 @@
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
+<<<<<<< HEAD
 	background: fixed url(img/pattern.jpg) no-repeat;
 	font-size: 35pt;
     font-family: Cuprum, sans-serif;
     color: #040404;
+=======
+	font-family: 'Jost-Bold';
+	font-size: 8vh;
+	background: linear-gradient(to top, #FFFFFF, #FFF8B5);
+>>>>>>> 14e9e37ccde18a7fc83f26c5629042eb036cd867
 }
 .math-section{
 	display: flex;
