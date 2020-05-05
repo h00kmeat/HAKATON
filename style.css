@@ -13,7 +13,6 @@ body{
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
     color: #040404;
-
 }
 
 .math-section{
