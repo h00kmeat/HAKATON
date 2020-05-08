@@ -1,5 +1,5 @@
-$('.body').hover(
-  function(){$(this).css("background-color", "blue");},
-  function(){$(this).css("background-color", "red");}
-  );
+$(document).ready(function(){
+	$('.menu-button').click(function(){ $('#mySidenav').css('width','14vw'); $("body").css('marginLeft','14vw'); });
 
+
+			})
