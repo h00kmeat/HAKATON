@@ -23,27 +23,27 @@ body{
   top:0;
   height: 100vh;
   z-index: 100;
-  background-color: #202020;
+  
   overflow:hidden;
   transition:width .3s ease;
   cursor:pointer;
   box-shadow:1px 7px 10px rgba(0,0,0,.4);
+
 }
 .nav__cont:hover {
-    width:10vw;
+    width:17vw;
   }
 .nav {
 	list-style-type: none;
-	color:white;
+	
 
 }
 .nav:first-child {
     padding-top:1.5vh;
   }
-
 .nav__items {
-  	padding-bottom:4vh;
-  	font-family: 'roboto';
+  margin-top: 1vh;
+  font-family: Cuprum;	
 
 }
 
@@ -55,13 +55,17 @@ svg{
     cursor:pointer;
 }
 .nav__items a {
+	text-align: center;
+	padding-top: 5vh;
     position: relative;
     display:block;
     transition:all .3s ease;
     margin-left:3vw;
-    margin-right:5%;
+    background-image: linear-gradient(to right, rgb(240, 230, 140), rgba(240, 230, 140,0));
+   	height: 6vh;
+   	box-shadow: 0 0.3vh 3vh rgba(0,0,0,0.25), 0 1vh 1vh rgba(0,0,0,0.22);
     text-decoration: none;
-    color:white;
+    color:rgba(0,0,0,0.5);
     font-family: Cuprum;
 	font-size:2vw;
 }
@@ -73,13 +77,15 @@ svg{
     top:0;
     left:0;
     border-radius:0.4vh;
-    background:radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%);
+    
     opacity:0;
     transition:all .5s ease;
     z-index: -10;
 }
-.nav__items:hover  a:after{
+.nav__items:hover a{
     opacity:1;
+    color: #000;
+    box-shadow: 0.2vh 0.2vh #000, 0.6vh 0.6vh;
 }
 .heading{
 	grid-column-start: 4;
