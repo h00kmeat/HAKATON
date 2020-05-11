@@ -111,6 +111,8 @@ svg{
 	font-size: 3vw;
 }
 .font{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 	margin-left: 2%;
 	text-indent:3vw;
 }
