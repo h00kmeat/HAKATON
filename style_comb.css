@@ -15,7 +15,6 @@ body{
     grid-auto-rows: minmax(1vh,auto)
 }
 .combinatoric div{
-	display: flex;
 }
 .nav__cont {
   position: fixed;
