@@ -27,7 +27,7 @@ body{
   overflow:hidden;
   transition:width .3s ease;
   cursor:pointer;
-  box-shadow:1px 7px 10px rgba(0,0,0,.4);
+  box-shadow:0.3vh 1vh 1.5vh rgba(0,0,0,.4);
 
 }
 .nav__cont:hover {
@@ -42,8 +42,8 @@ body{
     padding-top:1.5vh;
   }
 .nav__items {
-  margin-top: 1vh;
-  font-family: Cuprum;	
+  	margin-top: 1vh;
+  	font-family: Cuprum;	
 
 }
 
@@ -102,10 +102,14 @@ svg{
 	grid-column-start: 2;
 	grid-column-end: 8;
 	grid-row-start: 2;
-	grid-row-end: 11;
 	background-color: white;
-	opacity: 0.5;
+	opacity: 0.7;
 	border-radius: 1vw;
+}
+p{
+	font-family: Jost;
+	font-style: normal;
+	font-size: 2vw;
 }
 .switches{ 
 	grid-row-start: 5;
