@@ -89,8 +89,7 @@ svg{
 .heading{
 	grid-column-start: 4;
 	grid-column-end: 6;
-	justify-content: center;
-	align-items: flex-end;
+	text-align: center;
 	font-family: 'Myriad Pro Regular';
 	font-size: 8vh;
 	margin-top: 10%;
@@ -105,7 +104,14 @@ svg{
 	opacity: 0.7;
 	border-radius: 1vw;
 }
+.bold-font{
+	text-align:center;
+}
+.font{
+	text-indent:3vw;
+}
 p{
+
 	font-family: Jost;
 	font-style: normal;
 	font-size: 2vw;
