@@ -60,11 +60,11 @@ svg{
     display:block;
     transition:all .3s ease;
     margin-left:3vw;
-    background-image: linear-gradient(to right, rgb(240, 230, 140), rgba(240, 230, 140,0));
+    background-image: linear-gradient(to right, rgb(238, 232, 170), rgba(238, 232, 170,0.8));
    	height: 6vh;
    	box-shadow: 0 0.3vh 3vh rgba(0,0,0,0.25), 0 1vh 1vh rgba(0,0,0,0.22);
     text-decoration: none;
-    color:rgba(0,0,0,0.5);
+    color:rgba(0,0,0,0.6);
     font-family: Cuprum;
 	font-size:2vw;
 }
@@ -76,13 +76,12 @@ svg{
     top:0;
     left:0;
     border-radius:0.4vh;
-    
     opacity:0;
     transition:all .5s ease;
     z-index: -10;
 }
 .nav__items:hover a{
-    opacity:1;
+	background-image: linear-gradient(to right, rgb(238, 232, 170), rgba(238, 232, 170,0.925));
     color: #000;
     box-shadow: 0.2vh 0.2vh #000, 0.6vh 0.6vh;
 }
@@ -96,6 +95,7 @@ svg{
 }
 
 .body{
+	flex-direction: column;
 	margin-top: 5%;
 	grid-column-start: 2;
 	grid-column-end: 8;
@@ -105,13 +105,16 @@ svg{
 	border-radius: 1vw;
 }
 .bold-font{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
 	text-align:center;
+	font-size: 3vw;
 }
 .font{
+	margin-left: 2%;
 	text-indent:3vw;
 }
 p{
-
 	font-family: Jost;
 	font-style: normal;
 	font-size: 2vw;
