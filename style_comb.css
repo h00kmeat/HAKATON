@@ -121,6 +121,38 @@ p{
 	font-style: normal;
 	font-size: 2vw;
 }
+a{
+	text-decoration: none;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-template-rows: repeat(5,1fr);
+	justify-content: center;
+	grid-gap: 2vw;
+	align-items: end;
+}
+.wrapper div{
+	text-align: center;
+}
+h1{
+	font-family: Jost;
+	font-style: normal;
+	font-size: 2vw;
+	color: #000;
+	transition: 0.4s;
+	transition-timing-function: ease;
+}
+h1:hover{
+	transform: scale(1.2);
+}
+.contain img{
+	transition: 0.4s;
+	transition-timing-function: ease;
+}
+.contain img:hover{
+	transform: scale(1.2);
+}
 .switches{ 
 	grid-row-start: 5;
 	grid-row-end: 10;
